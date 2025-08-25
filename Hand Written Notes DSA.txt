@@ -1,0 +1,111 @@
+DSA Notes (8:00pm - 9:30pm)
+NOTE: 
+	- class on every alternate days
+	- practice questions You have to solve it
+	- share with me on Discord/ Telegram/ Insta
+	- if facing problems just connect with me
+	- NO AI TOOLS TO CODE
+	- full participation of students
+
+---------- Class 1 (Into) -----------
+Data is a information stored somewhere
+Structure the process of organizing the things properly.
+
+Data Structure: are diff ways of organizing data on your computer in such a way that can be used effeciently.
+
+Eg:- 
+	- 1. mesy way of bicks
+	- 2. organized way of brikes (select)
+
+so in order to work with data we have to fist orgamized it properly and then we can work with it in more efficient way.	
+
+s/w point of view: 
+	- efficiency 
+	- performance
+these things will rely of how you have stored, organized and grouped together during the program execution.
+
+Daily life example:
+	- students / people standing in queue for there turn (queue)
+	- order in a restaurent
+
+
+What is Algorithm?
+	set of instructions to perform a task
+
+eg:- 
+	- driving a car
+	- find the path b/w 2 points
+	- withdraw the money from ATM
+	- cooking a dish: 
+		- what to cook (fry rice)
+		- boil the rice
+		- rince the excess water
+		- prepare the chok
+		- mix the rice with chok 
+		- server it
+
+make sure we will select the proper algo
+
+
+computer science: it is a set of rules of a computer program to complet a task.
+
+		Input Data
+			|
+			|
+		calculation
+			|
+			|
+	stop when we got the answer
+
+
+we must Know when to use which algo for creating the memory and speed efficient program.
+
+Foutune 500 : use some type of algo
+
+Compression Algorithm: text, speech, audio, photo, video (Google and Facebook)
+Graph Algorithm: to find the shortest path.
+
+
+What makes a good algorithm?
+	- Correctness
+	- Efficiency
+
+
+Why DSA is important?
+	Because we have to process the data effeciently
+
+input(data):
+	- mon
+	- tue
+	- wed
+	- thur
+	- 50,45,35,49
+
+process
+	- arranging
+	- sorting
+	- combining
+	- mathamatical operations
+
+output(information):
+	- temperature
+	- mon - 50
+	- tue - 45
+	- wed - 35
+	- thur - 49
+
+our responsiblity is to optimize the process
+
+
+eg: go to market to by the fruits
+	input : set the location on map
+	process: less Trafic, less time, fule efficient, no toll plaza
+	output: base on the process and input we have done.
+
+lib: we have book in organized way
+maintance day: pile of books (diff to find a book)
+
+
+Why compnaies ask the Question from DSA?
+	- Judge your skills (ask the fundamentals of program)
+	- Problam solving skills.
