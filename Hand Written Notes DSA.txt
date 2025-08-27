@@ -109,3 +109,109 @@ maintance day: pile of books (diff to find a book)
 Why compnaies ask the Question from DSA?
 	- Judge your skills (ask the fundamentals of program)
 	- Problam solving skills.
+
+
+
+------------- Class 2 ---------------
+Revision:
+	- What is data structure?
+	- What is Algorithm?
+
+Different types of Data Structure
+	two type
+	- Primitive: 
+		-basic data types that can not be broken down into simpler data type.
+		- fix size 
+		- simple operations
+		- represent in memory as a simple value.
+	- Non Primitive: 
+		- more complex and can be broken ddown into smaller data types.
+		- size if variable
+		- complex operations data manipulation, sorting or searching.
+		- represent as a pointer in memeory
+
+
+Primitive:
+	- Integer
+	- Float
+	- string
+	- boolean
+	
+Non Primitive
+	- Linear (sequencial order)
+		- list
+		- tuple
+		- arrays
+		- Linked List
+		- Stack
+		- Queue
+	- Non Linera (not in sequencial order)
+		- Set
+		- dictionary
+		- Tree
+		- Graph
+		
+
+Why do we need these Data Structure?
+		
+Type of Algorithm
+	- Sorting Algorithm: arrange data in ascending or descending way.
+		(Bobble sort, Selection Sort, insertion sort, etc)
+	- Searching Algorithm: to find sepific value in data set.
+		(linear search, binary seach, orhter searching tech.)
+	- Graph Algorithm: use when the data is in represented as a graph format.
+		(Dijkstra's, DFS, BFS etc.)
+	- Dynamic Programming Algorithm:  techniques for solving complex problem.
+		(Knspsack problem)
+	- Divide and Conquer Algorithm: divide the big problem into small chunks (merge sort or quick sort).
+	- Recursive Algorithm: the function call itself.
+	
+quiz:
+
+Why do we need data structure and algorithms?
+	1. To develop software
+	2. To run our developed software
+	3. To develop memory and time efficient application
+Ans: 3
+
+**What is primitive data structure?**
+	1. Built in data structure in any given programming language
+	2. user defined data structure.
+Ans: 1
+
+**Please select non primitive data structure.**
+	1. Integer
+	2. String
+	3. Boolean
+	4. Array
+Ans: 4
+
+**Which of the following is NOT a linear data structure?**
+	1. Array 
+	2. Linked List 
+	3. Stack
+	4. Queue
+	5. Tree
+Ans: 5
+
+---
+Big O Notations
+	language and metric we use to describe the efficiency of algorithm.
+	
+Note: it gives you the one way of describing how much time that application takes to run your application grows as the size of the input grows.
+
+Time Complexity: it's way of showing how the runtime of the function increases as the size of input increases.
+
+
+Big O is a way of methematically figuring out which code is better, which runs more effeciently
+
+
+Time Complexity
+	code 1		30sec
+	code 2		60sec
+	
+Space complexity
+	code 1		30sec 	14space
+	code 2 		60sec 	3space
+
+256 gb storage in phone: 10 
