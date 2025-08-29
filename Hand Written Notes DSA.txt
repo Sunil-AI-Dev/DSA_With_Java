@@ -215,3 +215,114 @@ Space complexity
 	code 2 		60sec 	3space
 
 256 gb storage in phone: 10 
+
+
+---------- class 3 ----------------
+Big O Notations
+	Car: 
+		15/l
+	- city driving - 12/lt
+	- highway driving - 17/lt
+	- mix condition - 13/lt
+
+3 diff cases
+	- best case
+	- average case
+	- worst case
+	
+3 greek letters
+	- omega:- best case (first value)
+		1 2 3 4 5 6 7 8
+		-
+	- Theta:- avg case (last value)
+		1 2 3 4 5 6 7 8
+					  -
+	- Omicron:- worst case (mid value)
+		1 2 3 4 5 6 7 8
+			  -
+We always have mesure the worst case that is Big O
+
+big O and big theta is mostly in the academics, but for industry we use the Big O
+
+
+Run Time Complexity
+	- O(1) - Constant - A simple add nuber function
+	- O(N) - Linear - Loop through number from 1 to n.
+	- O(LogN) - Logarithmic - Find an element in sorted array.
+	- O(N^2) - Quadratic - Nested loop
+	- O(2^n) - Exponential - Double recursion in fibonacci.
+	
+O(1) - Constant	
+	eg: take a random card out of deck of card
+
+	O(1) 
+	public static int multipleyNo(int n) {
+		return n*n;
+	}
+	
+O(N) - Linear
+	eg: select the specific card out of deck of card.
+	
+	public static void displayNumber(int n) {
+		for(int i=0; i<=n;i++) {
+			System.out.print(i+" ");
+		}
+	}
+
+
+Drop constants
+		for(int i=0; i<=n;i++) {
+			System.out.print(i+" "); // O(n)
+		}
+		for(int i=0; i<=n;i++) {
+			System.out.print(i+" "); // O(n)
+		}
+	
+	O(n+n) =O(2n) = O(n)
+
+why we remove the constants?
+	- used to reduce the noice from program
+	- a*(b-c) vs a*b - a*c
+	- 2*(5-3) vs 2*5 - 2*3
+	- 2*(2) vs 10-6
+	- 4 vs 4
+
+O(N^2) - Quadratic
+	eg: find the pair of each card
+	
+	for(int i=0; i<=n;i++) {
+		for(int j=0;j<=n;j++) {
+			System.out.print(i+" "+j+"  ");
+		}
+		System.out.println();
+	}
+	-----
+	
+	for(int i=0; i<=n;i++) {
+		for(int j=0;j<=n;j++) {
+			for(int k=0;k<=n;k++) {
+				System.out.print(i+" "+j+" "+k+"  ");
+			}
+		}
+		System.out.println();
+	}
+	O(n^3)
+	
+	---
+	for(int i=0; i<=n;i++) {
+		for(int j=0;j<=n;j++) {
+			System.out.print(i+" "+j+"  "); // O(n^2)
+		}
+		System.out.println();
+	}
+	
+	for(int j=0;j<=n;j++) {
+		System.out.print(j); // o(n)
+	}
+
+drop the non dominat terms
+	O(n^2 + n)
+	O(n^2)
+
+
+
