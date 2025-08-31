@@ -326,3 +326,180 @@ drop the non dominat terms
 
 
 
+----------------- Class 4 ---------------
+O(LogN) - Logarithmic
+
+sorted array = 1 2 3 4 5 6 7 8
+	find no 1
+	
+1 2 3 4 | 5 6 7 8
+1 2 | 3 4
+1 | 2
+Answer: 1
+
+how may steps to find number 1
+it took 3 steps
+
+log2 8 = 3
+2*2*2 = 8
+
+we have to find what power of 2 is 8
+
+
+Add vs Multiply
+
+Addition
+	for(int i =0; i<=n; i++) {
+		System.out.print(i+" "); //O(n)
+	}
+	for(int j =0; j<=n; j++) {
+		System.out.print(j+" "); //O(n)
+	}
+	
+O(n+n) = O(2n)
+O(n)
+	public static void printNumber(int a, int b){
+		for(int i =0; i<=a; i++) {
+			System.out.print(i+" ");  // O(a)
+		}
+		for(int j =0; j<=b; j++) {
+			System.out.print(j+" "); // O(b)
+		}
+	}
+O(a+b)
+
+Multiply
+	public static void printNumber(int a, int b){
+		for(int i =0; i<=a; i++) {
+			for(int j =0; j<=b; j++) {
+				System.out.print(i+" "+j+"  ");
+			}
+		}
+	}
+O(a*b)
+
+
+--Space Complexity--
+it is the amount of the working storage that an algorithm needs.  That means how much memory in the worst case is need at any point in algorithm.
+
+public static int sumNum(int n) {
+		if(n<=0) {
+			return 0;
+		}
+		return n+sumNum(n-1);
+	}
+	public static void main(String[] args) {
+		sumNum(5);
+	}
+	
+How to measure code Big O
+	- any assignment stmt and if stmt that are executed once -- O(1)
+	- simple for loop -- O(n)
+	- nested loop -- O(n^2)
+	- loop in which the contolling parameters is dividing by two at each step --- O(log n)
+	
+	
+	public static void totalValue(int n) {
+		var total =0; //------------------ O(1)
+		for (int i=0 ;i<=n; i++) { //----- O(n)
+			total +=1; //----------------- O(1)
+		}
+		if(total >50) { //---------------- O(1)
+			System.out.println("Sum is greater than 50"); //----------------------------- O(1)
+		}else {
+			System.out.println(total); //-- O(1)
+		}
+	}
+
+time complexity: O(1)+O(n)+O(1)+O(1)+O(1)+O(1) = O(n)
+
+
+Quiz: 
+Question 1:What is the time complexity of the following Java code snippet?
+	int sum = 0;
+	for (int i = 0; i < n; i++) {
+		sum += i;
+	}
+
+	1. O(1)
+	2. O(n)
+	3. O(n^2)
+	4. O(log n)
+	
+Ans: 2. O(n)
+
+
+Question 2: What is the time complexity of the following Java code snippet?
+	for (int i = 1; i <= n; i *= 2) {
+		System.out.println(i);
+	}
+
+	1. O(1)
+	2. O(n)
+	3. O(n^2)
+	4. O(log n)
+
+Ans: 4. O(log n)
+
+
+Question 3: What is the time complexity of the following Java code snippet?
+int sum = 0;
+ for (int i = 0; i < n; i++) {
+  for (int j = 0; j < n; j++) {
+   sum += i * j;
+  }
+}
+
+	1. O(1)
+	2. O(n)
+	3. O(n^2)
+	4. O(n^3)
+
+Ans: 3. O(n^2)
+
+Question 4: What is the time complexity of the following Java code snippet?
+	int sum = 0;
+	for (int i = 0; i < n; i++) {
+		for (int j = i; j < n; j++) {
+			sum += i * j;
+		}
+	}
+
+	1. O(1)
+	2. O(n)
+	3. O(n^2)
+	4. O(n*log n)
+
+Ans: 3. O(n^2)
+
+Question 5: What is the time complexity of the following Java code snippet?
+	int sum = 0;
+	for (int i = 0; i < n; i++) {
+		for (int j = 0; j < n; j *= 2) {
+			sum += i * j;
+		}
+	}
+
+	1. O(1)
+	2. O(n)
+	3. O(n^2)
+	4. O(n*log n)
+	
+Ans: 3. O(n^2)
+
+
+Question 6: What is the time complexity of the following Java code snippet?
+	int sum = 0;
+	for (int i = 0; i < n; i++) {
+		sum += i;
+	}
+	for (int j = 0; j < n; j++) {
+		sum += j;
+	}
+
+	1. O(1)
+	2. O(n)
+	3. O(n^2)
+	4. O(2n)
+	
+Ans: 2. O(n)
