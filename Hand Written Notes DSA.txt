@@ -503,3 +503,78 @@ Question 6: What is the time complexity of the following Java code snippet?
 	4. O(2n)
 	
 Ans: 2. O(n)
+
+
+--------------- Class 5 ------------
+What is Array?
+collection of same type of data or collection of objects or things.
+they are very powerful data structure that stores list of elements.
+
+Array example: 
+	- roll number of student
+	- cloths in almera 
+	- books in shelf
+	
+values can be accessed by using the position.
+
+Array= 		4,3,2,6,8,7,9
+position = 	0,1,2,3,4,5,6
+
+
+Why do we need an array
+	store 3 value -> i can use variable 
+	500 values -> Array
+
+Types of Array:
+	- One Dimensional
+	- Multi Dimensional
+		- 2d
+		- 3d
+		- 4d
+		- nd
+
+One Dimensional: store data in row or column
+a = 5,6,8,9,7,2,1,6,7
+	0,1,2,3,4,5,6,7,8
+	
+a[4] = 7
+a[8] = 7
+
+Two Dimensional Arrya: in the form of matrix
+	1	2	3
+a=	4	5	6
+	7	8	9
+
+a[1][2]=6
+a[2][1]=8
+
+Three Dimensional Array: rubic cube
+000, 001, 002: Row
+000, 010, 020: col
+000, 100, 200: dep
+	
+
+Array in memory: in pdf
+
+
+How to create an array?
+	- decalre: create a referance to array
+	- instantiation of an arrya: creates an array
+	- intitialization: value to array.
+	
+	
+	int arr[];			// O(1)
+	arr= new int[3];	// O(1)
+	arr[0]=10;		// O(1)
+	arr[1]=20;		// O(1)		//O(n)
+	arr[2]=30;		// O(1)
+	System.out.println(Arrays.toString(arr));
+	String sArr[] = {"a","b","c"}; 		//O(1)
+	System.out.println(Arrays.toString(sArr));
+
+Inset into array
+	if array is full then create the new array
+	
+
+
+
