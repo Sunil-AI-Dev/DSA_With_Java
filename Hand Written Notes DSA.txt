@@ -574,7 +574,36 @@ How to create an array?
 
 Inset into array
 	if array is full then create the new array
+
+
+Accessing the elements: selecting a specific value from list
+Traversing the array: 
+	visiting each element of an array/list.
+
+Serch values in array:
+	arr1= a,b,c,d,e,f
+		  0,1,2,3,4,5
+		  
+	arr2= 1,2,3,4,5,6,7,8
+		  0,1,2,3,4,5,6,7
 	
+
+Delete the element from the array
+	if value deleted the space will be Integer.MIN_VALUE;
+	-2^31
+	
+	delete 30
+	
+10,20,-2^31,40,50,60
+
+Space and time complexity of 1D array
+	Operation				Time		Space
+- create an empty array 	O(1)		O(n)
+- Inserting value array 	O(1)		O(1)
+- traversing an array		O(n)		O(1)
+- Accessing a value			O(1)		O(1)
+- Searching a value			O(n)		O(1)
+- Delete a given value		O(1)		O(1)
 
 
 
