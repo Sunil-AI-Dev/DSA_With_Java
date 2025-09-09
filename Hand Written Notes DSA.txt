@@ -607,3 +607,6 @@ Space and time complexity of 1D array
 
 
 
+2 dimension array
+	deepToString: it will conver the multiple dimension array to string
+		[[][]]
