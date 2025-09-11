@@ -607,6 +607,32 @@ Space and time complexity of 1D array
 
 
 
-2 dimension array
-	deepToString: it will conver the multiple dimension array to string
-		[[][]]
+------------ 2 dimension array ----------
+2 dimensional array : matrix
+
+arr
+	0	1	2
+0	2	5	9
+1	7	6	8
+2	6	2	1
+
+arr[1][2] = 8
+
+	it stored in a contegous way /  next to each other
+
+
+Inserting value in array:
+	
+arr
+	0	1	2
+0	5	5	9
+1	7	6	8
+2	3	2	1
+
+arr[0][0]= 5
+arr[1][1]= 6
+arr[2][0]= 3
+
+arr[1][1]= 8  ===> already taken
+
+arr[3][2] = 3 ===> exception (arr out of bond)
