@@ -636,3 +636,21 @@ arr[2][0]= 3
 arr[1][1]= 8  ===> already taken
 
 arr[3][2] = 3 ===> exception (arr out of bond)
+
+time and space complexity of 2d array.
+	Operation				Time		Space
+- create an empty array 	O(1)		O(mn)
+- Inserting value array 	O(1)		O(1)
+- traversing an array		O(mn)		O(1)
+- Accessing a value			O(1)		O(1)
+- Searching a value			O(mn)		O(1)
+- Delete a given value		O(1)		O(1)
+
+When to avoid and when to use array
+When to use:
+	- to store multiple variable of same data type
+	- Random access
+
+when to avoid:
+	- same data type elements
+	- Reserve memory

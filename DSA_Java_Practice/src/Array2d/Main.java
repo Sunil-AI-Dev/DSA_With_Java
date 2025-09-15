@@ -27,5 +27,39 @@ public class Main {
 		tdaf.insertValuInArray(1, 0, 40);
 //		tdaf.insertValuInArray(3, 0, 30);
 		System.out.println(Arrays.deepToString(tdaf.arr));
+		
+		//get the value in 2d array
+		//	0	1	
+		//0 10	20
+		//1 30	0
+		System.out.println("--------get the value---------");
+		tdaf.accessCell(0, 1);
+		tdaf.accessCell(1, 0);
+		
+		
+		//traverse the value in 2d array
+		//	0	1	
+		//0 10	20
+		//1 30	0
+		System.out.println("-------- Value traverse 2d Array---------");
+		tdaf.traverse2darry();
+		
+		
+		//search the value in 2d array
+		//	0	1	
+		//0 10	20
+		//1 30	0
+		System.out.println("-------- Search the value in 2d Array---------");
+		tdaf.searchvalue(20);;
+		
+		
+		//Delete the value in 2d array
+		//	0	1	
+		//0 10	20
+		//1 30	0
+		System.out.println("-------- Delete the value in 2d Array---------");
+		System.out.println(Arrays.deepToString(tdaf.arr));
+		tdaf.deleteValues2DArray(1, 1);
+		System.out.println(Arrays.deepToString(tdaf.arr));
 	}
 }
