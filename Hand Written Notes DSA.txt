@@ -654,3 +654,18 @@ When to use:
 when to avoid:
 	- same data type elements
 	- Reserve memory
+	
+	
+	
+-------- Array Intervewi DSA questions -------
+HW
+- Find the maximum element in an array
+- Reverse an Array
+- Check if Array is sorted
+- Remove duplicates from sorted array
+- find the "Majority Elements"
+- Move all zeros to the end
+- Find the Missing Numbers
+- find the Single number (xor operation)
+- Find all nubmers Disapperared in an Array
+- Product of array Except self
