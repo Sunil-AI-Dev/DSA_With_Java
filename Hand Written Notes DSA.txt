@@ -669,3 +669,37 @@ HW
 - find the Single number (xor operation)
 - Find all nubmers Disapperared in an Array
 - Product of array Except self
+
+------------- class 11 ------------
+Array list
+	- Array: fixed in size
+	- Array List: Size is flexible
+
+	array: type safety (we can add same type of data only)
+
+	performance of array list are slower than the array due to the overhead of resizing and additional methods.
+
+	array are better than array list in terms of performance
+	
+
+array list in memory?
+
+
+NOTE: array list does not automatically shirik its interal array when elements are removed.
+
+create array list
+array list is a part of java util package.
+
+ArrayList<Type> arrayListName = new ArrayList<Type>();
+ArrayList arrayListName = new ArrayList();
+// defalut spaces are 10
+
+
+ArrayList<Type> arrayListName = new ArrayList<Type>(13);
+ArrayList arrayListName = new ArrayList(13);
+// defalut spaces are 13
+
+ArrayList<String> names = new ArrayList<String>(Arrays.asList("Ranjan","Kamal","Madhu"));
+
+Ranjan | Kamal | Madhu | null | null | null | | |.........
+up to 10 values 
